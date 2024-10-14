@@ -1,0 +1,65 @@
+body {
+    font-family: serif;
+    font-size: 1.2em;
+    background-color: #fddaef
+    
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: Arial;
+}
+
+h2 {
+    text-align: center;
+    color: #cc22ff;
+    font-family: Arial;
+}
+
+h3 {
+    color: #cc22ff;
+    font-family: Arial;
+}
+h4 {
+    color: #cc22ff;
+    font-family: Arial;
+}
+
+.cita {
+    border-color: black;
+    border-style: solid;
+}
+.link {
+    color: blue;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: red;
+}
+
+p {
+    line-height: 125%;
+    color: grey;     
+}
+
+#p2::first-letter{
+    font-size: 300%;
+    font-weight: bold;
+}
+
+#p2 {
+    line-height: 125%;
+    color: blueviolet;
+
+}
+
+
+pre {
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1px;
+    background-color: grey;
+}
