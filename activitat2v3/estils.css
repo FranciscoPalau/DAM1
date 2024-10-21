@@ -1,0 +1,91 @@
+html{
+    background-color: yellow;
+}
+body {
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#div1 {
+    background: white;
+    margin-top: 10px;
+
+}
+
+.div2 {
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo_top{
+    margin: 5px;
+}
+
+#espailliure{
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    background-color: grey;
+}
+nav ul li{
+    margin: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ff9532;
+}
+.div3{
+    margin: 15px;
+}
+#titol{
+    color: rgb(25, 131, 131);
+    font-size: 25px;
+}
+
+.separador_fecha{
+    border-style: solid;
+    border-right: 1px;
+    border-left: 1px;
+}
+
+#div5{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.foto_anime{
+    margin: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.link:visited{
+    color: orange;
+}
+
+footer {
+    background-color: #a214c5; 
+    text-align: center;
+    flex: 1;
+}
+
+footer a img {
+    max-width: 100px; 
+    height: auto;
+}
+flex: 1;
