@@ -69,7 +69,7 @@ nav ul li a {
 
 .link{
     text-decoration: none;
-    color: black;
+    color:#ff9532;
 }
 .link:hover{
     text-decoration: underline;
@@ -88,4 +88,74 @@ footer a img {
     max-width: 100px; 
     height: auto;
 }
-flex: 1;
+
+
+/* llistes arcs */
+
+#Titol_llistes{
+    margin-left: 20px;
+    color: rgb(23, 122, 139);
+}
+
+#div_llistes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente la imagen en relación al texto */
+    padding: 20px;
+    gap: 20px; 
+}
+
+#div_llistes .listas_sagas {
+    flex: 1; 
+    max-width: 600px; 
+}
+
+#div_llistes .listas_sagas ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: #000000;
+}
+
+#div_llistes .listas_sagas ol li{
+    margin-left: 40px;
+}
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #35c0e2;
+    margin-bottom: 10px;  
+    margin-left: 20px;
+}
+
+.imatge_llistes {
+    flex-shrink: 0; 
+    max-width: 400px; 
+    width: 100%; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: auto; /* Asegura que la imagen se mantenga alineada */
+}
+
+/* personatges */
+h4{
+    margin-left: 20px;
+}
+
+.imatges_personatges{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+.paragrafs{
+    margin-left: 40px;
+}
+
+.link_presonatges{
+    text-align: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 200px;
+    background-color: grey;
+}
