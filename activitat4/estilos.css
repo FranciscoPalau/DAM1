@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(204, 204, 204);
+}
+
+
+
+#index{
+    background-image: url(img/fondoindex.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*menu*/
+#menu {
+    background-color: rgb(22, 119, 22);
+    padding: 15px;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: rgb(53, 53, 53);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px; 
+    height: auto;
+}
+
+.menu-links {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    align-items: center; 
+}
+
+.menu-links li {
+    margin-right: 30px; 
+}
+
+.menu-links li a {
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 30px;
+    display: block;
+}
+
+/*pie de pagina*/
+footer{
+    background-color: rgb(22, 119, 22);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    border-top: solid;
+    border-width: 3px;
+    border-color: rgb(53, 53, 53);
+}
+footer h3 a {
+    color: white;
+}
+
+/*contenido index*/
+#contenido{
+    color: green;
+    padding-left: 50px;
+}
+#contenido h1{
+    font-size: 60px ;
+}
+
+#contenido h2{
+    font-size: 30px ;
+}
+
+/*contenido precios*/
+
+.tabla h1{
+    text-align: center; 
+    font-size: 40px;
+}
+
+.tabla table{
+    border-style: solid;
+    border-radius: 10%;
+    margin: 0 auto; 
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table tr td{
+    border-style: solid;
+    text-align: center;
+}
+
+.menu-footer{
+    background-color: rgb(90, 102, 116);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+.div1{
+    background-color: rgb(197, 192, 192);
+}
+
+.div2{
+    background-color: white;
+}
+
+/*contenido reserva*/
+
+#divform{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);   
+}
+
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus,
+form textarea:focus {
+    border-color: #6666ff;
+    outline: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #6666ff;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #5555dd;
+}
